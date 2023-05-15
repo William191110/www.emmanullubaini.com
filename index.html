@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.emanuelubaini.com</title>
+    <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+
+    <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+<main class="web-content">
+    
+<header class="container">
+    <main class="d-flex">
+        <div class="title">
+            <a><i class="bi bi-house"></i> Emmanuel Lubaini</a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><i class="bi bi-folder2-open"></i> My Portfolio</a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-person-bounding-box"></i> Skills</a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-telephone"></i> Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+    <section class="introduction container">
+        <div class="img-img">
+            <img src="assets/img/webdev.JPG" height="350px" alt="Portfoliopicture">
+        </div>
+    </section>
+</header>
+
+
+
+<section class="container summary">
+    
+    <div class="content">
+        <div>
+            <h1 class="text-center"><i class="bi bi-person"></i> Hi,  I'm Emmanuel Lubaini</h1>
+            <small>FULL STACK WEB DEVELOPER AND DESIGNER.</small>
+            <p>
+                <span class="blue">I'm a web developer and designer, I have 5+ years in web development</span>. I come from the warm heart of Africa, Malawi. I started coding in 2017 at the age of 19. I have always loved coding before I came to know how it is like to code. I do web development with passion, turning web designs into real website and develop website from ground up.
+            </p>
+            <div class="btn-div">
+                <a href="#" class="btn"> <i class="bi bi-telephone"></i> Hire Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <img src="assets/img/company.png" width="150px" height="100px">
+
+      <p class="footer-links">
+        <a href="#">Home</a> ·
+        <a href="#">My Portfolio</a> ·
+        <a href="#">Skills</a> ·
+        <a href="#">Contact Me</a>
+      </p>
+
+      <p class="footer-company-name">Emmanuel Lubaini &copy; 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Area 49 Street</span> 3, New Guliver. </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p> +265993245672</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="#">support@emlubaini.com</a></p>
+      </div>
+
+    </div>
+
+<div class="footer-right">
+
+    <p class="footer-company-about">
+    <span>Emmanuel Lubaini</span> Full Stack Web Developer.
+    </p>
+
+    <div class="footer-icons">
+
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-twitter"></i></a>
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+    <a href="#"><i class="bi bi-github"></i></a>
+
+    </div>
+
+</div>
+
+</footer>
+</main>
+<script>
+    const loader = document.querySelector('.loader');
+const main = document.querySelector('.web-content');
+
+function init() {
+  setTimeout(() => {
+    loader.style.opacity = 0;
+    loader.style.display = 'none';
+
+    main.style.display = 'block';
+    setTimeout(() => (main.style.opacity = 1), 50);
+  }, 3500);
+}
+
+init();
+
+</script>
+
+</body>
+</html>
